@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "hf-nlp"
+version = "0.1.0"
+description = ""
+authors = ["Johannes Pflugmacher <johannes.pflugmacher@mgm-tp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+jupyterlab = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
